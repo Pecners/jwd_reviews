@@ -3,7 +3,7 @@
 
 # About
 
-This repository holds IMDb user reviews of Jurassic World: Dominion.
+This repository holds IMDb user reviews of Jurassic World: Dominion. (Accessed on 2022-06-18, 1,175 reviews)
 
 * [Data](/data/reviews.csv)
 * [Code](/src)
