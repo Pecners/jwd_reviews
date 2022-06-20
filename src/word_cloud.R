@@ -44,6 +44,8 @@ all <- tibble(
   review = reviews
 )
 
+write_csv(all, "data/tidy_reviews.csv")
+
 word_freq <- all %>%
   #filter(reviewer_rating < 5) %>%
   unnest_tokens(word, review) %>%
